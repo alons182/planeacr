@@ -1,0 +1,275 @@
+@font-face{font-family:'planea';src:url("../fonts/planea.eot?p9off9");src:url("../fonts/planea.eot?#iefixp9off9") format('embedded-opentype'),url("../fonts/planea.woff?p9off9") format('woff'),url("../fonts/planea.ttf?p9off9") format('truetype'),url("../fonts/planea.svg?p9off9#planea") format('svg');font-weight:normal;font-style:normal}
+[class^="icon-"],[class*=" icon-"]{font-family:'planea';speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+.icon-home:before{content:"\e600"}
+.icon-newspaper:before{content:"\e601"}
+.icon-address-book:before{content:"\e602"}
+.icon-users:before{content:"\e603"}
+.icon-briefcase:before{content:"\e604"}
+.icon-earth:before{content:"\e605"}
+.icon-point-up:before{content:"\e606"}
+.icon-arrow-right:before{content:"\e607"}
+.icon-arrow-left:before{content:"\e608"}
+.icon-facebook:before{content:"\e609"}
+.icon-twitter:before{content:"\e60a"}
+.icon-user:before{content:"\e60b"}
+html,body{width:100%;height:100%;font-family:'Lato',sans-serif;font-weight:300;font-size:16px;color:#fff}
+a,a:visited{color:#fff;text-decoration:none}
+#wrap{position:absolute;left:0;top:0;width:100%;height:100%;overflow:hidden;}
+#wrap #background-overlay,#wrap #background-overlay .image{position:absolute;left:0;top:0;width:100%;height:100%;z-index:-10;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover}
+#wrap #site-header:hover{width:210px;}
+#wrap #site-header:hover #menu a{color:#a3b8c2;opacity:.5;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";filter:alpha(opacity=50)}
+#wrap #site-header{background:rgba(1,26,39,0.6);position:absolute;left:0;top:0;bottom:0;padding:0;width:90px;overflow:hidden;z-index:10;-webkit-box-shadow:2px 1px 5px rgba(0,0,0,0.5);box-shadow:2px 1px 5px rgba(0,0,0,0.5);-webkit-transition:all 0.5s;-moz-transition:all 0.5s;-o-transition:all 0.5s;-ms-transition:all 0.5s;transition:all 0.5s;}
+#wrap #site-header #logo{display:block;height:135px;position:relative;left:15px;top:30px}
+#wrap #site-header #btn_nav{display:none}
+#wrap #site-header #menu{position:relative;}
+#wrap #site-header #menu ul{margin:0;padding:0;line-height:50px;text-transform:uppercase;font-size:14.5px;-webkit-transition-property:opacity;-moz-transition-property:opacity;-o-transition-property:opacity;-ms-transition-property:opacity;transition-property:opacity;}
+#wrap #site-header #menu ul li{border-bottom:1px solid rgba(102,136,153,0.3);overflow:hidden;height:50px;}
+#wrap #site-header #menu ul li a{color:rgba(255,255,255,0);display:block;position:relative;padding-left:73px;background-repeat:no-repeat;opacity:.3;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";filter:alpha(opacity=30);-webkit-transition:all 0.5s;-moz-transition:all 0.5s;-o-transition:all 0.5s;-ms-transition:all 0.5s;transition:all 0.5s;}
+#wrap #site-header #menu ul li a span{font-size:2em;display:block;width:32px;height:32px;position:absolute;left:31px;top:9px;opacity:1;-ms-filter:none;filter:none;color:#fff}
+#wrap #site-header #menu ul li a:hover{color:#fff;opacity:1;-ms-filter:none;filter:none}
+#wrap #site-header #menu ul .current{-webkit-box-shadow:inset 0 0 20px rgba(0,0,0,0.9);box-shadow:inset 0 0 20px rgba(0,0,0,0.9);background:#1b495d}
+#wrap #content{position:absolute;width:100%;left:100px;top:0;bottom:0;overflow:hidden;-webkit-transition-property:left;-moz-transition-property:left;-o-transition-property:left;-ms-transition-property:left;transition-property:left;}
+#wrap #content #contenido{width:100%;height:100%;position:absolute;top:0%;-webkit-transition-property:top, left;-moz-transition-property:top, left;-o-transition-property:top, left;-ms-transition-property:top, left;transition-property:top, left;}
+#wrap #content #contenido #menu-top #contact{float:right;margin-right:180px;position:relative;z-index:101;}
+#wrap #content #contenido #menu-top #contact .mobile-contact{font-weight:700;text-transform:uppercase;text-shadow:1px 1px 1px #000;display:none}
+#wrap #content #contenido #menu-top .menu-top-item{background:rgba(1,26,39,0.6);color:#fff;cursor:pointer;display:inline-block;font-family:'Lato',sans-serif;font-size:14px;font-weight:300;height:70px;margin-right:.1em;padding-top:1em;text-align:center;vertical-align:top;width:215px;border:1px solid #fff;-webkit-box-shadow:0 0 35px #fff;box-shadow:0 0 35px #fff;}
+#wrap #content #contenido #menu-top .menu-top-item .icon-point-up{position:absolute;top:47px;left:10px}
+#wrap #content #contenido #menu-top .menu-top-item p{color:#fff;font-size:12px;margin:0 0 .2em 0;}
+#wrap #content #contenido #menu-top .menu-top-item p a{color:#fff;text-decoration:none}
+#wrap #content #contenido #menu-top .menu-top-item p a:hover{text-decoration:underline}
+#wrap #content #contenido #menu-top .menu-top-item:hover{background:#011a27}
+#wrap #content #contenido #menu-top .menu-top-item .border-item{display:none;height:5px;margin:5px auto 0;width:90%}
+#wrap #content #contenido #menu-top .menu-top-item span.icon{display:block;font-size:2em;margin-bottom:.2em;text-align:center}
+#wrap #content #contenido #menu-top .menu-top-item span{font-size:12px;text-decoration:none}
+#wrap #content #contenido #contactbox{float:right;margin-right:176px;}
+#wrap #content #contenido #contactbox .column1,#wrap #content #contenido #contactbox .column2{display:inline-block;vertical-align:top;width:45%}
+#wrap #content #contenido #contactbox .column1{margin-right:40px}
+#wrap #content #contenido #contactbox h1{color:#009b3e;font-family:'Lato',sans-serif;font-size:24px;margin-bottom:10px;margin-top:0;text-transform:capitalize}
+#wrap #content #contenido #contactbox p{margin-bottom:6px;margin-top:0}
+#wrap #content #contenido #contactbox label{display:inline-block;font-size:14px;margin-bottom:2px;color:#736841}
+#wrap #content #contenido #contactbox label.error{color:#ee4035}
+#wrap #content #contenido #contactbox input[type="text"],#wrap #content #contenido #contactbox input[type="email"],#wrap #content #contenido #contactbox textarea,#wrap #content #contenido #contactbox select{-moz-appearance:none;-webkit-appearance:none;-webkit-appearance:none;-moz-appearance:none;appearance:none;background-image:-webkit-linear-gradient(#fff 20%, #f6f6f6 50%, #eee 52%, #f4f4f4 100%);background-image:-moz-linear-gradient(#fff 20%, #f6f6f6 50%, #eee 52%, #f4f4f4 100%);background-image:-o-linear-gradient(#fff 20%, #f6f6f6 50%, #eee 52%, #f4f4f4 100%);background-image:-ms-linear-gradient(#fff 20%, #f6f6f6 50%, #eee 52%, #f4f4f4 100%);background-image:linear-gradient(#fff 20%, #f6f6f6 50%, #eee 52%, #f4f4f4 100%);border:1px solid #c3c3c3;-webkit-border-radius:5px;border-radius:5px;color:#444;width:100%}
+#wrap #content #contenido #contactbox button,#wrap #content #contenido #contactbox input[type="submit"]{background:#009b3e;border:none;clear:both;color:#fff;cursor:pointer;float:right;font-size:12px;height:26px;margin-right:4px;width:80px}
+#wrap #content #contenido #contactbox .terms-text{font-size:13px}
+#wrap #content #contenido #contactbox .mensaje{margin-top:10px;font-size:12px;color:#736841;}
+#wrap #content #contenido #contactbox .mensaje span{-webkit-border-radius:5px;border-radius:5px;padding:.5em;width:85%}
+#wrap #content #contenido #contactbox .mensaje .ok{background:#dff0d8;border:1px solid #d6e9c6}
+#wrap #content #contenido #contactbox .mensaje .error{background:#f2dede;border:1px solid #eed3d7}
+#wrap #content #contenido #contactbox #dialog{border-bottom:5px solid #011a27;width:350px;}
+#wrap #content #contenido #contactbox #dialog .close{background:#8db7c5}
+#wrap #content #contenido #contactbox .window{background:#fff;display:none;padding:20px;position:fixed;top:90px;z-index:9999;}
+#wrap #content #contenido #contactbox .window .close{color:#fff;padding:24px 6px 6px 6px;position:absolute;right:10px;text-decoration:none;top:0}
+#wrap #content #contenido section,#wrap #content #contenido div[class*="item-page-"],#wrap #content #contenido .blog-featured{display:block;position:absolute;width:80%;padding:1% 4%;height:100%}
+#wrap #content #contenido #home,#wrap #content #contenido .item-page-home,#wrap #content #contenido .blog-featured,#wrap #content #contenido .item-page-about{top:8%;height:52%;}
+#wrap #content #contenido #home h1,#wrap #content #contenido .item-page-home h1,#wrap #content #contenido .blog-featured h1,#wrap #content #contenido .item-page-about h1{font-size:32px;color:#011a27;background:#fff;border-bottom:5px solid #00a850;max-width:9em;padding:.2em;text-transform:uppercase}
+#wrap #content #contenido #home h2,#wrap #content #contenido .item-page-home h2,#wrap #content #contenido .blog-featured h2,#wrap #content #contenido .item-page-about h2{color:#fff;padding:.2em;display:block}
+#wrap #content #contenido #home p,#wrap #content #contenido .item-page-home p,#wrap #content #contenido .blog-featured p,#wrap #content #contenido .item-page-about p{font-size:17px;line-height:23px;color:#fff}
+#wrap #content #contenido #home a,#wrap #content #contenido .item-page-home a,#wrap #content #contenido .blog-featured a,#wrap #content #contenido .item-page-about a{color:#009b3e}
+#wrap #content #contenido #home .description,#wrap #content #contenido .item-page-home .description,#wrap #content #contenido .blog-featured .description,#wrap #content #contenido .item-page-about .description{margin-top:70px;margin-left:35px;height:80%}
+#wrap #content #contenido #work,#wrap #content #contenido .item-page-work{top:0;padding-top:3%;padding-bottom:55px;}
+#wrap #content #contenido #work #proyectos,#wrap #content #contenido .item-page-work #proyectos{position:relative;left:0;top:60px;width:100%;height:100%;-webkit-perspective:1001px;-moz-perspective:1001px;-ms-perspective:1001px;perspective:1001px;}
+#wrap #content #contenido #work #proyectos .cycle-slideshow .slide-diseno,#wrap #content #contenido .item-page-work #proyectos .cycle-slideshow .slide-diseno{width:1024px;height:600px;border:5px solid #fff;-webkit-box-shadow:3px 3px 3px rgba(0,0,0,0.5);box-shadow:3px 3px 3px rgba(0,0,0,0.5);margin-left:25%;}
+#wrap #content #contenido #work #proyectos .cycle-slideshow .slide-diseno img,#wrap #content #contenido .item-page-work #proyectos .cycle-slideshow .slide-diseno img{width:100%;height:100%}
+#wrap #content #contenido #work #proyectos .cycle-slideshow .info,#wrap #content #contenido .item-page-work #proyectos .cycle-slideshow .info{left:0;width:350px;top:0}
+#wrap #content #contenido #work #proyectos .cycle-pager,#wrap #content #contenido .item-page-work #proyectos .cycle-pager{text-align:center;margin-top:10px;}
+#wrap #content #contenido #work #proyectos .cycle-pager div,#wrap #content #contenido .item-page-work #proyectos .cycle-pager div{display:inline-block;vertical-align:top;border:5px solid #009b3e;margin:.5em;width:180px;height:100px;cursor:pointer;}
+#wrap #content #contenido #work #proyectos .cycle-pager div img,#wrap #content #contenido .item-page-work #proyectos .cycle-pager div img{width:100%;height:100%}
+#wrap #content #contenido #work #proyectos .cycle-pager div .slide,#wrap #content #contenido .item-page-work #proyectos .cycle-pager div .slide{background-position:center top;background-repeat:no-repeat;height:100%;text-align:center;width:100%}
+#wrap #content #contenido #work #proyectos .proyecto,#wrap #content #contenido .item-page-work #proyectos .proyecto{width:100%;height:100%;position:absolute;left:0;top:0;}
+#wrap #content #contenido #work #proyectos .proyecto .info,#wrap #content #contenido .item-page-work #proyectos .proyecto .info{position:absolute;z-index:101;}
+#wrap #content #contenido #work #proyectos .proyecto .info h1,#wrap #content #contenido .item-page-work #proyectos .proyecto .info h1{background:#fff;text-transform:uppercase;color:#011a27;padding:.5em;font-size:1.5em;border-bottom:4px solid #00a850}
+#wrap #content #contenido #work #proyectos .proyecto .images,#wrap #content #contenido .item-page-work #proyectos .proyecto .images{position:absolute;width:100%;height:100%;left:0;top:0%;margin:0;padding:0;list-style:none;z-index:10;-webkit-transform-style:preserve-3d;-moz-transform-style:preserve-3d;-o-transform-style:preserve-3d;-ms-transform-style:preserve-3d;transform-style:preserve-3d;-webkit-perspective:1001px;-moz-perspective:1001px;-ms-perspective:1001px;perspective:1001px;}
+#wrap #content #contenido #work #proyectos .proyecto .images li,#wrap #content #contenido .item-page-work #proyectos .proyecto .images li{position:absolute;left:0;top:0%;background-repeat:no-repeat;opacity:.999;-ms-filter:none;filter:none;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;-webkit-transition:all 0.5s;-moz-transition:all 0.5s;-o-transition:all 0.5s;-ms-transition:all 0.5s;transition:all 0.5s;cursor:pointer;}
+#wrap #content #contenido #work #proyectos .proyecto .images li img,#wrap #content #contenido .item-page-work #proyectos .proyecto .images li img{width:100%;border:5px solid #fff}
+#wrap #content #contenido #work #proyectos .proyecto .images li:hover,#wrap #content #contenido .item-page-work #proyectos .proyecto .images li:hover{top:-1%}
+#wrap #content #contenido #work #proyectos .layout-corner-right .info,#wrap #content #contenido .item-page-work #proyectos .layout-corner-right .info{right:16%;width:25%;top:4%;text-align:left;}
+#wrap #content #contenido #work #proyectos .layout-corner-right .info h1,#wrap #content #contenido .item-page-work #proyectos .layout-corner-right .info h1{margin-bottom:0;border-bottom:4px solid #00a850}
+#wrap #content #contenido #work #proyectos .layout-corner-right .info .descripcion,#wrap #content #contenido .item-page-work #proyectos .layout-corner-right .info .descripcion{font-size:13px}
+#wrap #content #contenido #work #proyectos .layout-corner-right .images,#wrap #content #contenido .item-page-work #proyectos .layout-corner-right .images{color:#fff;}
+#wrap #content #contenido #work #proyectos .layout-corner-right .images img,#wrap #content #contenido .item-page-work #proyectos .layout-corner-right .images img{-webkit-box-shadow:-5px 5px 5px rgba(0,0,0,0.5);box-shadow:-5px 5px 5px rgba(0,0,0,0.5)}
+#wrap #content #contenido #work #proyectos .layout-corner-right .images .img1,#wrap #content #contenido .item-page-work #proyectos .layout-corner-right .images .img1{left:49%;z-index:102}
+#wrap #content #contenido #work #proyectos .layout-corner-right .images .img2,#wrap #content #contenido .item-page-work #proyectos .layout-corner-right .images .img2{left:20%;z-index:101}
+#wrap #content #contenido #work #proyectos .layout-corner-right .images .img3,#wrap #content #contenido .item-page-work #proyectos .layout-corner-right .images .img3{left:22%;z-index:100}
+#wrap #content #contenido #work #proyectos .layout-corner-right .images .img4,#wrap #content #contenido .item-page-work #proyectos .layout-corner-right .images .img4{left:30%;z-index:99}
+#wrap #content #contenido #work #proyectos .layout-corner-right-2 .info,#wrap #content #contenido .item-page-work #proyectos .layout-corner-right-2 .info{right:2%;width:22%;top:32%;text-align:left;}
+#wrap #content #contenido #work #proyectos .layout-corner-right-2 .info h1,#wrap #content #contenido .item-page-work #proyectos .layout-corner-right-2 .info h1{margin-bottom:0;border-bottom:4px solid #007abf}
+#wrap #content #contenido #work #proyectos .layout-corner-right-2 .info .descripcion,#wrap #content #contenido .item-page-work #proyectos .layout-corner-right-2 .info .descripcion{font-size:13px}
+#wrap #content #contenido #work #proyectos .layout-corner-right-2 .images,#wrap #content #contenido .item-page-work #proyectos .layout-corner-right-2 .images{color:#fff;}
+#wrap #content #contenido #work #proyectos .layout-corner-right-2 .images img,#wrap #content #contenido .item-page-work #proyectos .layout-corner-right-2 .images img{-webkit-box-shadow:5px 5px 5px rgba(0,0,0,0.5);box-shadow:5px 5px 5px rgba(0,0,0,0.5)}
+#wrap #content #contenido #work #proyectos .layout-corner-right-2 .images .img1,#wrap #content #contenido .item-page-work #proyectos .layout-corner-right-2 .images .img1{left:40%;z-index:102}
+#wrap #content #contenido #work #proyectos .layout-corner-right-2 .images .img2,#wrap #content #contenido .item-page-work #proyectos .layout-corner-right-2 .images .img2{left:20%;z-index:101}
+#wrap #content #contenido #work #proyectos .layout-corner-right-2 .images .img3,#wrap #content #contenido .item-page-work #proyectos .layout-corner-right-2 .images .img3{left:22%;z-index:100}
+#wrap #content #contenido #work #proyectos .layout-corner-right-2 .images .img4,#wrap #content #contenido .item-page-work #proyectos .layout-corner-right-2 .images .img4{left:30%;z-index:99}
+#wrap #content #contenido #work #proyectos .layout-side-left .info,#wrap #content #contenido .item-page-work #proyectos .layout-side-left .info{top:212px;width:20%;text-align:left;}
+#wrap #content #contenido #work #proyectos .layout-side-left .info h1,#wrap #content #contenido .item-page-work #proyectos .layout-side-left .info h1{margin-bottom:0;border-bottom:4px solid #007abf}
+#wrap #content #contenido #work #proyectos .layout-side-left .info .descripcion,#wrap #content #contenido .item-page-work #proyectos .layout-side-left .info .descripcion{font-size:13px}
+#wrap #content #contenido #work #proyectos .layout-side-left .images,#wrap #content #contenido .item-page-work #proyectos .layout-side-left .images{color:#fff;}
+#wrap #content #contenido #work #proyectos .layout-side-left .images img,#wrap #content #contenido .item-page-work #proyectos .layout-side-left .images img{-webkit-box-shadow:5px 5px 5px rgba(0,0,0,0.5);box-shadow:5px 5px 5px rgba(0,0,0,0.5)}
+#wrap #content #contenido #work #proyectos .layout-side-left .images .img1,#wrap #content #contenido .item-page-work #proyectos .layout-side-left .images .img1{left:25%;z-index:102}
+#wrap #content #contenido #work #proyectos .layout-side-left .images .img2,#wrap #content #contenido .item-page-work #proyectos .layout-side-left .images .img2{left:35%;z-index:101}
+#wrap #content #contenido #work #proyectos .layout-side-left .images .img3,#wrap #content #contenido .item-page-work #proyectos .layout-side-left .images .img3{left:50%;z-index:100}
+#wrap #content #contenido #work #proyectos .layout-side-left .images .img4,#wrap #content #contenido .item-page-work #proyectos .layout-side-left .images .img4{left:66%;z-index:90}
+#wrap #content #contenido #work .projects-nav,#wrap #content #contenido .item-page-work .projects-nav{display:block;position:absolute;height:80px;width:180px;bottom:15%;text-transform:uppercase;font-size:11px;letter-spacing:.1em;text-align:center;color:#fff}
+#wrap #content #contenido #work #prev,#wrap #content #contenido .item-page-work #prev{left:1.5%}
+#wrap #content #contenido #work #next,#wrap #content #contenido .item-page-work #next{right:1.5%}
+#wrap #content #contenido #work .icon-arrow-left,#wrap #content #contenido .item-page-work .icon-arrow-left,#wrap #content #contenido #work .icon-arrow-right,#wrap #content #contenido .item-page-work .icon-arrow-right{font-size:3em;display:inline-block;vertical-align:middle;padding-right:1px;padding-left:10px;color:#009b3e}
+#wrap #extra #divisiones{position:absolute;width:100%;height:440px;left:0;bottom:-340px;z-index:100;}
+#wrap #extra #divisiones .columnas-divisiones{height:100%;width:100%;padding-left:150px;position:relative;z-index:1;}
+#wrap #extra #divisiones .columnas-divisiones .custom{height:100%}
+#wrap #extra #divisiones .columnas-divisiones .col{float:left;height:100%;margin-right:20px;width:200px;background:rgba(255,255,255,0.9);position:relative;bottom:0;-webkit-transition:all 0.5s;-moz-transition:all 0.5s;-o-transition:all 0.5s;-ms-transition:all 0.5s;transition:all 0.5s;border:1px solid #fff;-webkit-box-shadow:0 0 35px #fff;box-shadow:0 0 35px #fff;}
+#wrap #extra #divisiones .columnas-divisiones .col .logo-division{margin-top:5px;text-align:center;margin-bottom:10px;display:block}
+#wrap #extra #divisiones .columnas-divisiones .col ul{font-size:13px;margin:0;padding:0;}
+#wrap #extra #divisiones .columnas-divisiones .col ul li a{color:#a3cada;display:block;padding-top:4px;padding-bottom:4px;padding-left:20px;padding-right:20px;}
+#wrap #extra #divisiones .columnas-divisiones .col ul li a:hover{color:#b3d88c;background:rgba(5,32,46,0.3)}
+#wrap #extra #divisiones .columnas-divisiones .col:hover{bottom:40px;background:#15617e;}
+#wrap #extra #divisiones .columnas-divisiones .col:hover .inner-link{color:#b3d88c;background:rgba(5,32,46,0.3)}
+#wrap #extra #divisiones .columnas-divisiones .col .inner-link{color:#a3cada;display:block;padding-top:4px;padding-bottom:4px;padding-left:20px;padding-right:20px;cursor:pointer}
+#wrap #extra #divisiones .columnas-divisiones #inversiones img{width:77%}
+.italic{font-style:italic}
+.bold{font-weight:bold}
+.mascara{position:absolute;width:200px;height:320px}
+.logo-home{position:relative;left:30%;background:rgba(1,26,39,0.6);display:block;width:400px;height:400px;-webkit-border-radius:50%;border-radius:50%;-webkit-box-shadow:0 0 35px #fff;box-shadow:0 0 35px #fff;}
+.logo-home object{margin-left:-50px;margin-top:30px}
+.logo-about{position:absolute;left:-1%;display:block;width:150px;height:150px;top:-85px;}
+.logo-about object{width:100%}
+.txt-green{color:#009b3e}
+.txt-blue{color:#8db7c5}
+.blue{background:#8db7c5}
+.green{background:#009b3e}
+.gray{background:#9da0a2}
+@media only screen and (max-width:  480px){#wrap #site-header{overflow:visible;}
+#wrap #site-header #btn_nav{position:absolute;top:8px;right:10px;padding:7px 10px 8px 8px;-webkit-background-size:12px 9px;-moz-background-size:12px 9px;background-size:12px 9px;display:block;cursor:pointer;font-size:14px;}
+#wrap #site-header #btn_nav span{margin-right:5px}
+#wrap #site-header #menu{margin-left:0;top:100% !important;left:0 !important;width:100%;position:absolute;z-index:20;background:#011a27;text-align:left;display:none;}
+#wrap #site-header #menu ul{padding:0;margin:0;}
+#wrap #site-header #menu ul li{width:auto !important;float:none !important;-webkit-background-size:13px 12px;-moz-background-size:13px 12px;background-size:13px 12px;border-right:none;}
+#wrap #site-header #menu ul li a span{left:10% !important}
+#wrap #site-header #menu ul li .active{background-color:transparent;color:#fff}
+#wrap #content #contenido #work #proyectos .layout-side-left .info,#wrap #content #contenido .item-page-work #proyectos .layout-side-left .info{left:14%}
+#wrap #extra{display:none}
+}@media only screen and (max-width:  640px){#wrap #site-header{height:50px;width:100%;left:0;}
+#wrap #site-header:hover{width:100%}
+#wrap #site-header #logo{width:25%;height:100%;top:0}
+#wrap #site-header #menu{position:absolute;left:14%;top:0;}
+#wrap #site-header #menu ul li{width:14%;border-left:1px solid rgba(102,136,153,0.3);border-bottom:none;float:left;}
+#wrap #site-header #menu ul li a span{font-size:1.6em;width:25px;left:35%}
+#wrap #content{left:0;}
+#wrap #content #contenido section{width:92%}
+#wrap #content #contenido #contactbox{float:right;margin-right:410px}
+#wrap #content #contenido #home h1,#wrap #content #contenido .item-page-home h1{font-size:50px}
+#wrap #content #contenido #home p,#wrap #content #contenido .item-page-home p{font-size:14px}
+#wrap #content #contenido #work #proyectos,#wrap #content #contenido .item-page-work #proyectos{top:25%;left:5%;}
+#wrap #content #contenido #work #proyectos .cycle-slideshow .slide-diseno,#wrap #content #contenido .item-page-work #proyectos .cycle-slideshow .slide-diseno{width:100% !important;height:auto !important}
+#wrap #content #contenido #work #proyectos .cycle-slideshow .info,#wrap #content #contenido .item-page-work #proyectos .cycle-slideshow .info{top:-155px}
+#wrap #content #contenido #work #proyectos .layout-corner-right .info h1,#wrap #content #contenido .item-page-work #proyectos .layout-corner-right .info h1,#wrap #content #contenido #work #proyectos .layout-side-left .info h1,#wrap #content #contenido .item-page-work #proyectos .layout-side-left .info h1{font-size:20px}
+#wrap #content #contenido #work #proyectos .layout-corner-right .info .descripcion,#wrap #content #contenido .item-page-work #proyectos .layout-corner-right .info .descripcion,#wrap #content #contenido #work #proyectos .layout-side-left .info .descripcion,#wrap #content #contenido .item-page-work #proyectos .layout-side-left .info .descripcion{display:none}
+#wrap #content #contenido #work #proyectos .layout-corner-right .images li,#wrap #content #contenido .item-page-work #proyectos .layout-corner-right .images li,#wrap #content #contenido #work #proyectos .layout-side-left .images li,#wrap #content #contenido .item-page-work #proyectos .layout-side-left .images li{width:70% !important}
+#wrap #content #contenido #work .projects-nav,#wrap #content #contenido .item-page-work .projects-nav{bottom:15%}
+#wrap #content #contenido #menu-top #contact{position:absolute;right:0;bottom:-52px;}
+#wrap #content #contenido #menu-top #contact .mobile-contact{display:block}
+}@media only screen and (max-width:  1024px){#wrap #content #contenido #work #proyectos,#wrap #content #contenido .item-page-work #proyectos{top:25%;}
+#wrap #content #contenido #work #proyectos .cycle-slideshow .info,#wrap #content #contenido .item-page-work #proyectos .cycle-slideshow .info{top:-155px;right:auto}
+#wrap #content #contenido #work #proyectos .cycle-slideshow .slide-diseno,#wrap #content #contenido .item-page-work #proyectos .cycle-slideshow .slide-diseno{width:500px;height:300px;margin-left:0 !important}
+#wrap #content #contenido #work #proyectos .cycle-pager div,#wrap #content #contenido .item-page-work #proyectos .cycle-pager div{width:90px;height:70px}
+#wrap #content #contenido #work .projects-nav,#wrap #content #contenido .item-page-work .projects-nav{bottom:10%}
+}@media only screen and (max-width:  1366px){#wrap #content #contenido #work #proyectos .cycle-slideshow .slide-diseno,#wrap #content #contenido .item-page-work #proyectos .cycle-slideshow .slide-diseno{width:800px;height:380px;margin-left:12%}
+#wrap #content #contenido #work #proyectos .layout-corner-right .info,#wrap #content #contenido .item-page-work #proyectos .layout-corner-right .info{right:1.1%;width:33%;bottom:75%}
+#wrap #content #contenido #work #proyectos .layout-corner-right .images,#wrap #content #contenido .item-page-work #proyectos .layout-corner-right .images{left:-5%;}
+#wrap #content #contenido #work #proyectos .layout-corner-right .images li,#wrap #content #contenido .item-page-work #proyectos .layout-corner-right .images li{width:50%}
+#wrap #content #contenido #work #proyectos .layout-side-left .images,#wrap #content #contenido .item-page-work #proyectos .layout-side-left .images{left:-5%;}
+#wrap #content #contenido #work #proyectos .layout-side-left .images li,#wrap #content #contenido .item-page-work #proyectos .layout-side-left .images li{width:50%}
+}.mCSB_container{width:auto;margin-right:30px;overflow:hidden}
+.mCSB_container.mCS_no_scrollbar{margin-right:0}
+.mCS_disabled>.mCustomScrollBox>.mCSB_container.mCS_no_scrollbar,.mCS_destroyed>.mCustomScrollBox>.mCSB_container.mCS_no_scrollbar{margin-right:30px}
+.mCustomScrollBox>.mCSB_scrollTools{width:10px;height:100%;top:0;right:0}
+.mCSB_scrollTools .mCSB_draggerContainer{position:absolute;top:0;left:0;bottom:0;right:0;height:auto}
+.mCSB_scrollTools a+.mCSB_draggerContainer{margin:20px 0}
+.mCSB_scrollTools .mCSB_draggerRail{width:2px;height:100%;margin:0 auto;}
+.mCSB_scrollTools .mCSB_dragger{cursor:pointer;width:100%;height:30px}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{width:10px;height:100%;margin:0 auto;text-align:center}
+.mCSB_scrollTools .mCSB_buttonUp,.mCSB_scrollTools .mCSB_buttonDown{display:block;position:relative;height:20px;overflow:hidden;margin:0 auto;cursor:pointer}
+.mCSB_scrollTools .mCSB_buttonDown{top:100%;margin-top:-40px}
+.mCSB_horizontal>.mCSB_container{height:auto;margin-right:0;margin-bottom:30px;overflow:hidden}
+.mCSB_horizontal>.mCSB_container.mCS_no_scrollbar{margin-bottom:0}
+.mCS_disabled>.mCSB_horizontal>.mCSB_container.mCS_no_scrollbar,.mCS_destroyed>.mCSB_horizontal>.mCSB_container.mCS_no_scrollbar{margin-right:0;margin-bottom:30px}
+.mCSB_horizontal.mCustomScrollBox>.mCSB_scrollTools{width:100%;height:16px;top:auto;right:auto;bottom:0;left:0;overflow:hidden}
+.mCSB_horizontal>.mCSB_scrollTools a+.mCSB_draggerContainer{margin:0 20px}
+.mCSB_horizontal>.mCSB_scrollTools .mCSB_draggerRail{width:100%;height:2px;margin:7px 0;-webkit-border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;border-radius:10px}
+.mCSB_horizontal>.mCSB_scrollTools .mCSB_dragger{width:30px;height:100%}
+.mCSB_horizontal>.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{width:100%;height:4px;margin:6px auto;-webkit-border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;border-radius:10px}
+.mCSB_horizontal>.mCSB_scrollTools .mCSB_buttonLeft,.mCSB_horizontal>.mCSB_scrollTools .mCSB_buttonRight{display:block;position:relative;width:20px;height:100%;overflow:hidden;margin:0 auto;cursor:pointer;float:left}
+.mCSB_horizontal>.mCSB_scrollTools .mCSB_buttonRight{margin-left:-40px;float:right}
+.mCustomScrollBox{-ms-touch-action:none;}
+.mCustomScrollBox:hover>.mCSB_scrollTools{opacity:1;-ms-filter:none;filter:none;filter:"alpha(opacity=100)";-ms-filter:"alpha(opacity=100)";}
+.mCSB_scrollTools .mCSB_draggerRail{background:#000;}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{background:#fff;}
+.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar{background:#fff}
+.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar{background:#fff}
+.mCSB_scrollTools .mCSB_buttonUp,.mCSB_scrollTools .mCSB_buttonDown,.mCSB_scrollTools .mCSB_buttonLeft,.mCSB_scrollTools .mCSB_buttonRight{background-image:url("mCSB_buttons.png");background-repeat:no-repeat}
+.mCSB_scrollTools .mCSB_buttonUp{background-position:0 0;}
+.mCSB_scrollTools .mCSB_buttonDown{background-position:0 -20px;}
+.mCSB_scrollTools .mCSB_buttonLeft{background-position:0 -40px;}
+.mCSB_scrollTools .mCSB_buttonRight{background-position:0 -56px;}
+.mCSB_scrollTools .mCSB_buttonUp:hover,.mCSB_scrollTools .mCSB_buttonDown:hover,.mCSB_scrollTools .mCSB_buttonLeft:hover,.mCSB_scrollTools .mCSB_buttonRight:hover{opacity:.75;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";filter:alpha(opacity=75);filter:"alpha(opacity=75)";-ms-filter:"alpha(opacity=75)";}
+.mCSB_scrollTools .mCSB_buttonUp:active,.mCSB_scrollTools .mCSB_buttonDown:active,.mCSB_scrollTools .mCSB_buttonLeft:active,.mCSB_scrollTools .mCSB_buttonRight:active{opacity:.9;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";filter:alpha(opacity=90);filter:"alpha(opacity=90)";-ms-filter:"alpha(opacity=90)";}
+.mCS-dark>.mCSB_scrollTools .mCSB_draggerRail{background:#dfddd0;}
+.mCS-dark>.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{background:#cfc8c0;}
+.mCS-dark>.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar{background:#b9b0a5}
+.mCS-dark>.mCSB_scrollTools .mCSB_buttonUp{background-position:-80px 0}
+.mCS-dark>.mCSB_scrollTools .mCSB_buttonDown{background-position:-80px -20px}
+.mCS-dark>.mCSB_scrollTools .mCSB_buttonLeft{background-position:-80px -40px}
+.mCS-dark>.mCSB_scrollTools .mCSB_buttonRight{background-position:-80px -56px}
+.mCS-light-2>.mCSB_scrollTools .mCSB_draggerRail{width:4px;background:#fff;background:rgba(255,255,255,0.1);-webkit-border-radius:1px;-moz-border-radius:1px;-webkit-border-radius:1px;border-radius:1px}
+.mCS-light-2>.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{width:4px;background:#fff;background:rgba(255,255,255,0.75);-webkit-border-radius:1px;-moz-border-radius:1px;-webkit-border-radius:1px;border-radius:1px}
+.mCS-light-2.mCSB_horizontal>.mCSB_scrollTools .mCSB_draggerRail{width:100%;height:4px;margin:6px 0}
+.mCS-light-2.mCSB_horizontal>.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{width:100%;height:4px;margin:6px auto}
+.mCS-light-2>.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar{background:rgba(255,255,255,0.85)}
+.mCS-light-2>.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,.mCS-light-2>.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar{background:rgba(255,255,255,0.9)}
+.mCS-light-2>.mCSB_scrollTools .mCSB_buttonUp{background-position:-32px 0}
+.mCS-light-2>.mCSB_scrollTools .mCSB_buttonDown{background-position:-32px -20px}
+.mCS-light-2>.mCSB_scrollTools .mCSB_buttonLeft{background-position:-40px -40px}
+.mCS-light-2>.mCSB_scrollTools .mCSB_buttonRight{background-position:-40px -56px}
+.mCS-dark-2>.mCSB_scrollTools .mCSB_draggerRail{width:4px;background:#000;background:rgba(0,0,0,0.1);-webkit-border-radius:1px;-moz-border-radius:1px;-webkit-border-radius:1px;border-radius:1px}
+.mCS-dark-2>.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{width:4px;background:#000;background:rgba(0,0,0,0.75);-webkit-border-radius:1px;-moz-border-radius:1px;-webkit-border-radius:1px;border-radius:1px}
+.mCS-dark-2.mCSB_horizontal>.mCSB_scrollTools .mCSB_draggerRail{width:100%;height:4px;margin:6px 0}
+.mCS-dark-2.mCSB_horizontal>.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{width:100%;height:4px;margin:6px auto}
+.mCS-dark-2>.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar{background:rgba(0,0,0,0.85)}
+.mCS-dark-2>.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,.mCS-dark-2>.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar{background:rgba(0,0,0,0.9)}
+.mCS-dark-2>.mCSB_scrollTools .mCSB_buttonUp{background-position:-112px 0}
+.mCS-dark-2>.mCSB_scrollTools .mCSB_buttonDown{background-position:-112px -20px}
+.mCS-dark-2>.mCSB_scrollTools .mCSB_buttonLeft{background-position:-120px -40px}
+.mCS-dark-2>.mCSB_scrollTools .mCSB_buttonRight{background-position:-120px -56px}
+.mCS-light-thick>.mCSB_scrollTools .mCSB_draggerRail{width:4px;background:#fff;background:rgba(255,255,255,0.1);-webkit-border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;border-radius:2px}
+.mCS-light-thick>.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{width:6px;background:#fff;background:rgba(255,255,255,0.75);-webkit-border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;border-radius:2px}
+.mCS-light-thick.mCSB_horizontal>.mCSB_scrollTools .mCSB_draggerRail{width:100%;height:4px;margin:6px 0}
+.mCS-light-thick.mCSB_horizontal>.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{width:100%;height:6px;margin:5px auto}
+.mCS-light-thick>.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar{background:rgba(255,255,255,0.85)}
+.mCS-light-thick>.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,.mCS-light-thick>.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar{background:rgba(255,255,255,0.9)}
+.mCS-light-thick>.mCSB_scrollTools .mCSB_buttonUp{background-position:-16px 0}
+.mCS-light-thick>.mCSB_scrollTools .mCSB_buttonDown{background-position:-16px -20px}
+.mCS-light-thick>.mCSB_scrollTools .mCSB_buttonLeft{background-position:-20px -40px}
+.mCS-light-thick>.mCSB_scrollTools .mCSB_buttonRight{background-position:-20px -56px}
+.mCS-dark-thick>.mCSB_scrollTools .mCSB_draggerRail{width:4px;background:#000;background:rgba(0,0,0,0.1);-webkit-border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;border-radius:2px}
+.mCS-dark-thick>.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{width:6px;background:#000;background:rgba(0,0,0,0.75);-webkit-border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;border-radius:2px}
+.mCS-dark-thick.mCSB_horizontal>.mCSB_scrollTools .mCSB_draggerRail{width:100%;height:4px;margin:6px 0}
+.mCS-dark-thick.mCSB_horizontal>.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{width:100%;height:6px;margin:5px auto}
+.mCS-dark-thick>.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar{background:rgba(0,0,0,0.85)}
+.mCS-dark-thick>.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,.mCS-dark-thick>.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar{background:rgba(0,0,0,0.9)}
+.mCS-dark-thick>.mCSB_scrollTools .mCSB_buttonUp{background-position:-96px 0}
+.mCS-dark-thick>.mCSB_scrollTools .mCSB_buttonDown{background-position:-96px -20px}
+.mCS-dark-thick>.mCSB_scrollTools .mCSB_buttonLeft{background-position:-100px -40px}
+.mCS-dark-thick>.mCSB_scrollTools .mCSB_buttonRight{background-position:-100px -56px}
+.mCS-light-thin>.mCSB_scrollTools .mCSB_draggerRail{background:#fff;background:rgba(255,255,255,0.1)}
+.mCS-light-thin>.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{width:2px}
+.mCS-light-thin.mCSB_horizontal>.mCSB_scrollTools .mCSB_draggerRail{width:100%}
+.mCS-light-thin.mCSB_horizontal>.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{width:100%;height:2px;margin:7px auto}
+.mCS-dark-thin>.mCSB_scrollTools .mCSB_draggerRail{background:#000;background:rgba(0,0,0,0.15)}
+.mCS-dark-thin>.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{width:2px;background:#000;background:rgba(0,0,0,0.75)}
+.mCS-dark-thin.mCSB_horizontal>.mCSB_scrollTools .mCSB_draggerRail{width:100%}
+.mCS-dark-thin.mCSB_horizontal>.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{width:100%;height:2px;margin:7px auto}
+.mCS-dark-thin>.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar{background:rgba(0,0,0,0.85)}
+.mCS-dark-thin>.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,.mCS-dark-thin>.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar{background:rgba(0,0,0,0.9)}
+.mCS-dark-thin>.mCSB_scrollTools .mCSB_buttonUp{background-position:-80px 0}
+.mCS-dark-thin>.mCSB_scrollTools .mCSB_buttonDown{background-position:-80px -20px}
+.mCS-dark-thin>.mCSB_scrollTools .mCSB_buttonLeft{background-position:-80px -40px}
+.mCS-dark-thin>.mCSB_scrollTools .mCSB_buttonRight{background-position:-80px -56px}
