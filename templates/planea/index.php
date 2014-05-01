@@ -71,12 +71,10 @@ $doc->addStyleSheet('templates/'.$this->template.'/css/main.css');
                 </div>
             </section>
             <div id="extra">
-                <nav id="divisiones">
-                    <div class="columnas-divisiones">
-                        <jdoc:include type="modules" name="divisiones" style="none" />
+               
+                <jdoc:include type="modules" name="divisiones" style="none" />
                         
-                    </div>
-                </nav>
+                   
             </div>
 
         </div>
