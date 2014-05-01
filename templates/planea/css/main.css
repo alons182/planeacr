@@ -56,7 +56,7 @@ a,a:visited{color:#fff;text-decoration:none}
 #wrap #content #contenido #contactbox .mensaje .ok{background:#dff0d8;border:1px solid #d6e9c6}
 #wrap #content #contenido #contactbox .mensaje .error{background:#f2dede;border:1px solid #eed3d7}
 #wrap #content #contenido #contactbox #dialog{border-bottom:5px solid #011a27;width:350px;}
-#wrap #content #contenido #contactbox #dialog .close{background:#f00}
+#wrap #content #contenido #contactbox #dialog .close{background:#808080}
 #wrap #content #contenido #contactbox .window{background:#fff;display:none;padding:20px;position:fixed;top:90px;z-index:9999;}
 #wrap #content #contenido #contactbox .window .close{color:#fff;padding:24px 6px 6px 6px;position:absolute;right:10px;text-decoration:none;top:0}
 #wrap #content #contenido section,#wrap #content #contenido div[class*="item-page-"],#wrap #content #contenido .blog-featured{display:block;position:absolute;width:80%;padding:1% 4%;height:100%}
@@ -133,8 +133,8 @@ a,a:visited{color:#fff;text-decoration:none}
 .logo-about{position:absolute;left:-1%;display:block;width:150px;height:150px;top:-85px;}
 .logo-about object{width:100%}
 .txt-green{color:#009b3e}
-.txt-blue{color:#f00}
-.blue{background:#f00}
+.txt-blue{color:#808080}
+.blue{background:#808080}
 .green{background:#009b3e}
 .gray{background:#9da0a2}
 @media only screen and (max-width:  480px){#wrap #site-header{overflow:visible;}
