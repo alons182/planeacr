@@ -67,6 +67,9 @@ a,a:visited{color:#fff;text-decoration:none}
 #wrap #content #contenido #home p,#wrap #content #contenido .item-page-home p,#wrap #content #contenido .blog-featured p,#wrap #content #contenido .item-page-about p,#wrap #content #contenido .item-page-services p,#wrap #content #contenido .item-page-alianz p,#wrap #content #contenido .item-page-rh p,#wrap #content #contenido .item-page-rs p{font-size:17px;line-height:23px;color:#fff}
 #wrap #content #contenido #home a,#wrap #content #contenido .item-page-home a,#wrap #content #contenido .blog-featured a,#wrap #content #contenido .item-page-about a,#wrap #content #contenido .item-page-services a,#wrap #content #contenido .item-page-alianz a,#wrap #content #contenido .item-page-rh a,#wrap #content #contenido .item-page-rs a{color:#009b3e}
 #wrap #content #contenido #home .description,#wrap #content #contenido .item-page-home .description,#wrap #content #contenido .blog-featured .description,#wrap #content #contenido .item-page-about .description,#wrap #content #contenido .item-page-services .description,#wrap #content #contenido .item-page-alianz .description,#wrap #content #contenido .item-page-rh .description,#wrap #content #contenido .item-page-rs .description{margin-top:70px;margin-left:35px;height:80%}
+#wrap #content #contenido .item-page-alianz h1{max-width:13em}
+#wrap #content #contenido .item-page-rh h1{max-width:11em}
+#wrap #content #contenido .item-page-services h1{max-width:6em}
 #wrap #content #contenido #work,#wrap #content #contenido .item-page-work{top:0;padding-top:3%;padding-bottom:55px;}
 #wrap #content #contenido #work #proyectos,#wrap #content #contenido .item-page-work #proyectos{position:relative;left:0;top:60px;width:100%;height:100%;-webkit-perspective:1001px;-moz-perspective:1001px;-ms-perspective:1001px;perspective:1001px;}
 #wrap #content #contenido #work #proyectos .cycle-slideshow .slide-diseno,#wrap #content #contenido .item-page-work #proyectos .cycle-slideshow .slide-diseno{width:1024px;height:600px;border:5px solid #fff;-webkit-box-shadow:3px 3px 3px rgba(0,0,0,0.5);box-shadow:3px 3px 3px rgba(0,0,0,0.5);margin-left:25%;}
@@ -146,6 +149,26 @@ a,a:visited{color:#fff;text-decoration:none}
 .service a:hover{text-decoration:none;}
 .service a:hover .icon{top:-10px;color:$naranja}
 .service p a:hover{text-decoration:underline}
+.progress{position:relative;width:257px;border:1px solid #ddd;padding:1px;-webkit-border-radius:3px;border-radius:3px;top:-64px;left:290px;display:none;}
+.progress .bar{background-color:#8db7c5;width:0%;height:20px;-webkit-border-radius:3px;border-radius:3px}
+.progress .percent{position:absolute;display:inline-block;top:3px;left:48%;font-size:12px}
+.field-wrapper{margin:0;clear:both;position:relative;overflow:visible;margin:0 0 10px 0;}
+.field-wrapper label{font-weight:700;display:block;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;padding-bottom:.2em;max-width:550px;color:#8db7c5}
+.field-wrapper input[type="text"],.field-wrapper input[type="password"],.field-wrapper input[type="email"],.field-wrapper textarea,.field-wrapper #uploadFile{width:90%;max-width:550px;min-height:26px;-moz-appearance:none;-webkit-appearance:none;-webkit-appearance:none;-moz-appearance:none;appearance:none;background-image:-webkit-linear-gradient(#fff 20%, #f6f6f6 50%, #eee 52%, #f4f4f4 100%);background-image:-moz-linear-gradient(#fff 20%, #f6f6f6 50%, #eee 52%, #f4f4f4 100%);background-image:-o-linear-gradient(#fff 20%, #f6f6f6 50%, #eee 52%, #f4f4f4 100%);background-image:-ms-linear-gradient(#fff 20%, #f6f6f6 50%, #eee 52%, #f4f4f4 100%);background-image:linear-gradient(#fff 20%, #f6f6f6 50%, #eee 52%, #f4f4f4 100%);border:1px solid #c3c3c3;-webkit-border-radius:5px;border-radius:5px;color:#444;width:100%}
+.field-wrapper textarea{width:90%}
+.field-wrapper input[disabled]{cursor:not-allowed;background-color:#eee !important}
+.field-wrapper textarea{height:90px;background-color:#fff}
+.field-wrapper label.error{display:inline;margin-left:3px;color:#009b3e;margin-top:-5px;font-size:12px;font-weight:700;background:#fff;-webkit-border-radius:3px;border-radius:3px;padding:2px}
+.button{background:#009b3e;border:none;clear:both;color:#fff;cursor:pointer;font-size:12px;height:26px;margin-right:4px;width:80px}
+.p0{background:#009b3e;color:#fff}
+.p0:hover{background:#222}
+.fileUpload{position:relative;overflow:hidden;margin:0 5px;}
+.fileUpload input{position:absolute;top:0;right:0;margin:0;padding:0;font-size:20px;cursor:pointer;opacity:0;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0)}
+#uploadFile{width:200px !important}
+.btn{display:inline-block;padding:4px 12px;margin-bottom:0;font-size:14px;line-height:20px;text-align:center;vertical-align:middle;cursor:pointer;color:#333;text-shadow:0 1px 1px rgba(255,255,255,0.75);background-color:#f5f5f5;background-image:-webkit-linear-gradient(top, #fff, #e6e6e6);background-image:-moz-linear-gradient(top, #fff, #e6e6e6);background-image:-o-linear-gradient(top, #fff, #e6e6e6);background-image:-ms-linear-gradient(top, #fff, #e6e6e6);background-image:linear-gradient(to bottom, #fff, #e6e6e6);background-repeat:repeat-x;border-color:#e6e6e6 #e6e6e6 #bfbfbf;border-color:rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);border:1px solid #ccc;border-bottom-color:#b3b3b3;-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);box-shadow:inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05)}
+.mensaje{font-size:14px;position:relative;top:-65px;left:90px;max-width:460px;}
+.mensaje .ok{color:#8db7c5;background:#fff;-webkit-border-radius:3px;border-radius:3px;padding:5px;font-weight:700}
+.mensaje .error{color:#f00;background:#fff;-webkit-border-radius:3px;border-radius:3px;padding:5px;font-weight:700}
 @media only screen and (max-width:  480px){#wrap #site-header{overflow:visible;}
 #wrap #site-header #btn_nav{position:absolute;top:8px;right:10px;padding:7px 10px 8px 8px;-webkit-background-size:12px 9px;-moz-background-size:12px 9px;background-size:12px 9px;display:block;cursor:pointer;font-size:14px;}
 #wrap #site-header #btn_nav span{margin-right:5px}

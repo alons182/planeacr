@@ -88,6 +88,8 @@ $doc->addStyleSheet('templates/'.$this->template.'/css/main.css');
         <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/vendor/jquery.validate.min.js"></script>
         <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/vendor/jquery.mousewheel.min.js"></script>
         <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/vendor/jquery.mCustomScrollbar.min.js"></script>
+        <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/vendor/jquery.form.min.js"></script>
+       
         <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/utils.js"></script>
         <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/main.js"></script>
         <!--<script data-main="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/main.js" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/vendor/require.js"></script>-->

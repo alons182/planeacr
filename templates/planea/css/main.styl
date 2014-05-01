@@ -337,6 +337,15 @@ a, a:visited
 					margin-top 70px
 					margin-left 35px
 					height 80%
+			.item-page-alianz
+				h1
+					max-width 13em
+			.item-page-rh
+				h1 
+					max-width 11em
+			.item-page-services
+				h1 
+					max-width 6em
 			#work, .item-page-work 
 				top 0
 				padding-top 3%
@@ -747,8 +756,159 @@ a, a:visited
 	p 
 		
 		a:hover
-			text-decoration underline  
+			text-decoration underline 
+
+.progress
+	position relative 
+	width 257px 
+	border 1px solid #ddd 
+	padding 1px 
+	border-radius 3px
+	top -64px
+	left 290px
+	display none
+
+	.bar
+		background-color $celeste 
+		width 0% 
+		height 20px 
+		border-radius 3px
+
+	.percent  
+		position absolute 
+		display inline-block 
+		top 3px 
+		left 48% 
+		font-size 12px
+
+.field-wrapper
+	margin 0
+	clear both
+	position relative
+	overflow visible
+	margin 0 0 10px 0
+
+	label
+		
+		font-weight 700
+		display block
+		-webkit-user-select none
+		-moz-user-select none
+		-ms-user-select none
+		user-select none
+		padding-bottom .2em
+		max-width 550px
+		color $celeste
+
+	input[type="text"],input[type="password"],input[type="email"],textarea,#uploadFile
+		width 90%
+		max-width 550px
+		min-height 26px
+		-moz-appearance none
+		-webkit-appearance none
+		appearance none
+		background-image linear-gradient(#ffffff 20%, #f6f6f6 50%, #eeeeee 52%, #f4f4f4 100%)
+		border 1px solid #c3c3c3
+		border-radius 5px
+		color #444
+		width 100%
+	textarea
+		width 90%
+
+	input[disabled]
+		cursor not-allowed
+		background-color #eeeeee !important
+		
+	textarea
+		height 90px
+		background-color #fff
+	label.error
+		display inline
+		margin-left 3px
+		color $verde
+		margin-top -5px
+		font-size 12px
+		font-weight 700
+		background #fff
+		border-radius 3px
+		padding 2px
+
+.button
+	background $verde
+	border none
+	clear both
+	color white
+	cursor pointer
+	font-size 12px
+	height 26px
+	margin-right 4px
+	width 80px
+
+
+.p0
+	background $verde
+	color #FFF
+.p0:hover
+	background rgb(34, 34, 34)
+
+.fileUpload 
+	position relative
+	overflow hidden
+	margin 0px 5px
+
+	input 
+		position absolute
+		top 0
+		right 0
+		margin 0
+		padding 0
+		font-size 20px
+		cursor pointer
+		opacity 0
+#uploadFile
+	width 200px !important
+
+.btn 
+	display inline-block
+	padding 4px 12px
+	margin-bottom 0
+	font-size 14px
+	line-height 20px
+	text-align center
+	vertical-align middle
+	cursor pointer
+	color #333333
+	text-shadow 0 1px 1px rgba(255, 255, 255, 0.75)
+	background-color #f5f5f5
+	background-image linear-gradient(to bottom, #ffffff, #e6e6e6)
+	background-repeat repeat-x
+	border-color #e6e6e6 #e6e6e6 #bfbfbf
+	border-color rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25)
+	border: 1px solid #cccccc
+	border-bottom-color #b3b3b3
+	//border-radius (4px)
+	box-shadow inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05)
 	
+.mensaje
+	font-size 14px
+	position relative
+	top -65px
+	left 90px
+	max-width 460px
+	.ok
+		color $celeste
+		background #fff
+		border-radius 3px
+		padding 5px
+		font-weight 700
+		
+	.error
+		color red
+		background #fff
+		border-radius 3px
+		padding 5px
+		font-weight 700 
+
 	
 
 		
