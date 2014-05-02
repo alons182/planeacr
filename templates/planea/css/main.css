@@ -141,7 +141,7 @@ a,a:visited{color:#fff;text-decoration:none}
 .blue{background:#8db7c5}
 .green{background:#009b3e}
 .gray{background:#9da0a2}
-.about-icons{float:left}
+.about-icons{float:left;background:rgba(255,255,255,0.9);margin-top:-13px;margin-right:10px}
 .center-text{text-align:center}
 .service{display:inline-block;margin:0 3em 1em;vertical-align:top;width:350px;}
 .service .icon{color:$celete;display:block;font-size:4em;position:relative;top:0;-webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;-o-transition:all 0.5s ease;-ms-transition:all 0.5s ease;transition:all 0.5s ease}

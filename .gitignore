@@ -5,7 +5,7 @@
 
 templates/planea/public/
 templates/planea/node_modules/
-
+images/uploads/
 
 /.htaccess
 /administrator/cache/*
