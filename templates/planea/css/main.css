@@ -67,7 +67,7 @@ a,a:visited{color:#fff;text-decoration:none}
 #wrap #content #contenido #home p,#wrap #content #contenido .item-page-home p,#wrap #content #contenido .blog-featured p,#wrap #content #contenido .item-page-about p,#wrap #content #contenido .item-page-services p,#wrap #content #contenido .item-page-alianz p,#wrap #content #contenido .item-page-rh p,#wrap #content #contenido .item-page-rs p{font-size:17px;line-height:23px;color:#fff}
 #wrap #content #contenido #home a,#wrap #content #contenido .item-page-home a,#wrap #content #contenido .blog-featured a,#wrap #content #contenido .item-page-about a,#wrap #content #contenido .item-page-services a,#wrap #content #contenido .item-page-alianz a,#wrap #content #contenido .item-page-rh a,#wrap #content #contenido .item-page-rs a{color:#009b3e}
 #wrap #content #contenido #home .description,#wrap #content #contenido .item-page-home .description,#wrap #content #contenido .blog-featured .description,#wrap #content #contenido .item-page-about .description,#wrap #content #contenido .item-page-services .description,#wrap #content #contenido .item-page-alianz .description,#wrap #content #contenido .item-page-rh .description,#wrap #content #contenido .item-page-rs .description{margin-top:70px;margin-left:35px;height:80%}
-#wrap #content #contenido .item-page-alianz h1{max-width:13em}
+#wrap #content #contenido .item-page-alianz h1,#wrap #content #contenido .item-page-rs h1{max-width:13em}
 #wrap #content #contenido .item-page-rh h1{max-width:11em}
 #wrap #content #contenido .item-page-services h1{max-width:6em}
 #wrap #content #contenido #work,#wrap #content #contenido .item-page-work{top:0;padding-top:3%;padding-bottom:55px;}
